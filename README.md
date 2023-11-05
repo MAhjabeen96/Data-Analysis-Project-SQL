@@ -1,7 +1,7 @@
 # Adidas-Sales-Analysis
 
 Problem Statement
-The objective of this project is to analyze the Adidas sales database for the year 2020 and 2021 and identify key insights to help improve sales performance and optimize business strategies. By analyzing the sales data, we aim to understand factors influencing sales, identify trends, and uncover opportunities for growth. 
+The objective of this project is to analyze the Adidas sales database for the year 2021 and identify key insights to help improve sales performance and optimize business strategies. By analyzing the sales data, we aim to understand factors influencing sales, identify trends, and uncover opportunities for growth. 
 
 <font size="15"><B>Background</B></font>
 
@@ -43,14 +43,47 @@ The information I needed to solve all the questions above is in both adidassales
 
 💡 Results
 
-<font size="12"><B>1. Total Sales, Total Profit, Average Price per Unit, and Total Units Sold:</B></font>
-Here's the SQL query for that:
+<font size="12"><B>1. Total Sales, Total Profit, Average Price per Unit, and Total Units Sold:</B></font>  
+Here's the SQL query for that:<br> ```
 SELECT 
     SUM(total_sales) AS "Total Sales",
     SUM(price_per_unit * units_sold) AS "Total Profit",
     Round(AVG(price_per_unit),2) AS "Average Price per Unit",
     SUM(units_sold) AS "Total Units Sold"
 FROM
-    adidas_sales;
-    And this is the data output:
-    
+    adidas_sales; ```<br>
+    And this is the data output:<br>
+     ![Alt text](Output/1.PNG) <br>
+The overall sales for 2021 combined is $717,821,450.<br>
+The overall profit generated within this time frame is $95,929,325.<br>
+The total units sold amount to 2,016,512 units.<br>
+The average price per unit sold is $44.37.<br>
+
+<font size="12"><B>2.What are the top three products on highest demand in terms of quantity?</B></font><br>
+Here's the SQL query for that:<br> ```SELECT product, SUM(units_sold) AS Total_units_sold FROM adidas_sales
+ GROUP BY product 
+ ORDER BY total_units_sold 
+ DESC LIMIT 3;```<br>
+ And this is the data output:<br>
+     ![Alt text](Output/2.PNG) <br>The three product categories in the highest demand are "Men's Street Footwear", "Men's Athletic Footwear", and "Women's Apparel".<br>
+    <font size="12"><B>3.Find the product categories with the highest total sales in each region?</B></font><br> 
+   Here's the SQL query for that:<br> ```WITH max_region_sales AS (
+    SELECT l.region, MAX(s.total_sales) as max_total_sales
+    FROM adidas_sales s
+    JOIN locations l ON s.transaction_id = l.transaction_id
+    GROUP BY l.region
+)
+SELECT l.region, s.product, SUM(s.total_sales) as total_sales
+FROM adidas_sales s
+JOIN locations l ON s.transaction_id = l.transaction_id
+JOIN max_region_sales mrs ON l.region = mrs.region
+WHERE s.total_sales = mrs.max_total_sales
+GROUP BY l.region, s.product
+ORDER BY l.region;```<br>
+ And this is the data output:<br>
+     ![Alt text](Output/3.PNG) <br>In the Men's Street Footwear category, the top-performing region is the Midwest with a total sales of $618,750.
+In the Men's Street Footwear category, the top-performing region is the Northeast with a total sales of $617,500.
+In the Women's Apparel category, the top-performing region is the South with a total sales of $825,000.
+In the Women's Apparel category, the top-performing region is the Southeast with a total sales of $825,000.
+In the Women's Apparel category, the top-performing region is the West with a total sales of $735,000.
+<br>
