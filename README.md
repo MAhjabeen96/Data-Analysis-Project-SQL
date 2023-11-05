@@ -87,3 +87,34 @@ West Gear is the top-performing Retailer in the West region with a total sales o
 Amazon is the top-performing Retailer d in the Midwest region with a total sales of $618,750.
 West Gear is the top-performing Retailer in the Northeast region with a total sales of $617,500.
 <br>
+
+<font size="12"><B>4.Calculate the total sales and percentage contribution of each product category to the overall sales?</B></font><br>
+Here's the SQL query for that:<br> ```SELECT product, 
+       SUM(total_sales) as total_Sales,
+	   (SUM(total_sales) / (SELECT SUM(total_sales) FROM adidas_sales)) * 100 as sales_percentage
+FROM adidas_sales
+GROUP BY product
+order by sales_percentage desc```<br>
+ And this is the data output:<br>
+     ![Alt text](Output/4.PNG) <br>The top performing product category is Men's Street Footwear the with a total sales of 23.85% of the overall sales.<br>
+
+<font size="12"><B>5.Which retailers have the most sales per state?</B></font><br>
+To answer this question, I'll need to perform the following steps:<br>
+1.Calculate the total sales for each retailer and state combination <br>
+2.Rank the retailers within each state based on their total sales <br>
+3.Select the retailer with the highest total sales in each state <br>
+Here's the SQL query for that:<br> ```WITH retailer_state_sales AS 
+( SELECT l.state,
+ ad.retailer, SUM(ad.price_per_unit * ad.units_sold) AS total_sales 
+ FROM adidas_sales ad
+ INNER JOIN locations l
+ ON ad.transaction_id = l.transaction_id 
+ GROUP BY l.state, ad.retailer )
+ ,ranked_retailers AS 
+ ( SELECT state, retailer, total_sales, 
+ ROW_NUMBER() OVER (PARTITION BY state ORDER BY total_sales DESC) AS rk 
+ FROM retailer_state_sales )
+ SELECT state, retailer, total_sales 
+ FROM ranked_retailers WHERE rk = 1; ```<br>
+ And this is the data output:<br>
+ ![Alt text](Output/5.PNG) <br> <br>Alabama's top retailer is Sports Direct, Alaska in Amazon and Arizona in Footlocker.<br>
