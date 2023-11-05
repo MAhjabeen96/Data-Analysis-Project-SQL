@@ -81,9 +81,10 @@ WHERE s.total_sales = mrs.max_total_sales
 GROUP BY l.region, s.product
 ORDER BY l.region;```<br>
  And this is the data output:<br>
-     ![Alt text](Output/3.PNG) <br>In the Men's Street Footwear category, the top-performing region is the Midwest with a total sales of $618,750.
-In the Men's Street Footwear category, the top-performing region is the Northeast with a total sales of $617,500.
-In the Women's Apparel category, the top-performing region is the South with a total sales of $825,000.
-In the Women's Apparel category, the top-performing region is the Southeast with a total sales of $825,000.
-In the Women's Apparel category, the top-performing region is the West with a total sales of $735,000.
+     ![Alt text](Output/3.PNG) <br>
+Walmart is the top-performing brand in the Southeast region with a total sales of $825,000.
+West Gear is the top-performing brand in the South region with a total sales of $825,000.
+West Gear is the top-performing brand in the West region with a total sales of $735,000.
+Amazon is the top-performing brand in the Midwest region with a total sales of $618,750.
+West Gear is the top-performing brand in the Northeast region with a total sales of $617,500.
 <br>
