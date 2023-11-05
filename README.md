@@ -66,7 +66,7 @@ Here's the SQL query for that:<br> ```SELECT product, SUM(units_sold) AS Total_u
  DESC LIMIT 3;```<br>
  And this is the data output:<br>
      ![Alt text](Output/2.PNG) <br>The three product categories in the highest demand are "Men's Street Footwear", "Men's Athletic Footwear", and "Women's Apparel".<br>
-    <font size="12"><B>3.Find the product categories with the highest total sales in each region?</B></font><br> 
+    <font size="12"><B>3.Find the Retailer with the highest total sales in each region?</B></font><br> 
    Here's the SQL query for that:<br> ```WITH max_region_sales AS (
     SELECT l.region, MAX(s.total_sales) as max_total_sales
     FROM adidas_sales s
@@ -82,9 +82,8 @@ GROUP BY l.region, s.product
 ORDER BY l.region;```<br>
  And this is the data output:<br>
      ![Alt text](Output/3.PNG) <br>
-Walmart is the top-performing brand in the Southeast region with a total sales of $825,000.
-West Gear is the top-performing brand in the South region with a total sales of $825,000.
-West Gear is the top-performing brand in the West region with a total sales of $735,000.
-Amazon is the top-performing brand in the Midwest region with a total sales of $618,750.
-West Gear is the top-performing brand in the Northeast region with a total sales of $617,500.
+Walmart is the top-performing Retailer in the South region with a total sales of $825,000.
+West Gear is the top-performing Retailer in the West region with a total sales of $735,000.
+Amazon is the top-performing Retailer d in the Midwest region with a total sales of $618,750.
+West Gear is the top-performing Retailer in the Northeast region with a total sales of $617,500.
 <br>
