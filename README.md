@@ -170,22 +170,22 @@ Foot Locker is the top performer in Charleston with a profit of $3,449,802.
 In Portland, West Gear is the top performing retailer with a profit of $3,118,632.
 Walmart leads in Orlando with a profit of $2,992,039.<br>
 
-<font size="12"><B>Conclusion</font></B>
+<font size="12"><B>Conclusion</font></B><br>
 In conclusion, the analysis of the Adidas sales has provided valuable insights into the performance of the business. Here are the key findings:<br>
-1.Overall Sales and Profit generated in 2021: The overall sales for 2021 combined is $717,821,450. The overall profit generated within this time frame is $95,929,325.<br>
-3.Seasonal Sales Pattern:This pattern suggests that more sales occur during the summer season. Adidas has two total sales major peaks, one during summer and one in December. Understanding this seasonal trend can help in planning marketing campaigns and inventory management.<br>
-3.Seasonal Sales Pattern:This pattern suggests that more sales occur during the summer season. Adidas has two total sales major peaks, one during summer and one in December. Understanding this seasonal trend can help in planning marketing campaigns and inventory management.<br>
-4.Product Category Analysis: Men's Street Footwear,Women's Apparel and Men's Athletic Footwear emerged as the top-selling product category. <br>
-5.Sales Method Effectiveness: In-store sales proved to be the most effective method, generating sales worth $262,740,750. On the other hand, Outlet sales performed comparatively lower, with total sales of $211,927,784. It is important to enhance the online sales platform and implement targeted digital marketing strategies to boost online sales.<br>
-6.Regional and City Analysis: The West region outperformed other regions, with total sales of $193,048,029. Among cities, Charleston emerged as the top performer, generating sales worth $39,974,797.<br>
+```1.Overall Sales and Profit generated in 2021: The overall sales for 2021 combined is $717,821,450. The overall profit generated within this time frame is $95,929,325.```<br>
+```2.Seasonal Sales Pattern:This pattern suggests that more sales occur during the summer season. Adidas has two total sales major peaks, one during summer and one in December. Understanding this seasonal trend can help in planning marketing campaigns and inventory management.```<br>
+```3.Seasonal Sales Pattern:This pattern suggests that more sales occur during the summer season. Adidas has two total sales major peaks, one during summer and one in December. Understanding this seasonal trend can help in planning marketing campaigns and inventory management.```<br>
+```4.Product Category Analysis: Men's Street Footwear,Women's Apparel and Men's Athletic Footwear emerged as the top-selling product category.``` <br>
+```5.Sales Method Effectiveness: In-store sales proved to be the most effective method, generating sales worth $262,740,750. On the other hand, Outlet sales performed comparatively lower, with total sales of $211,927,784. It is important to enhance the online sales platform and implement targeted digital marketing strategies to boost online sales.```<br>
+```6.Regional and City Analysis: The West region outperformed other regions, with total sales of $193,048,029. Among cities, Charleston emerged as the top performer, generating sales worth $39,974,797.```<br>
 
 <font size="12">Recommendation</font></B><br>
-•Capitalize on the growth trend by investing in marketing, product innovation, and customer engagement strategies.<br>
-•Strengthen partnerships with top-performing retailers to optimize product placement and explore co-marketing opportunities.<br>
-•Implement strategies to optimize operations in the summer, considering the significance in sales. This may include increased staffing, special promotions, or tailored product offerings.<br>
-•Enhance the online and outlet sales platform, improve user experience, and invest in targeted digital marketing campaigns to boost online sales.<br>
-•Consider expanding operations in high-performing regions and target cities with growth potential. <br>
-•Gather and analyze customer feedback and preferences to better understand their needs, tailor marketing messages, and optimize product offerings.<br>
+```•Capitalize on the growth trend by investing in marketing, product innovation, and customer engagement strategies.```<br>
+```•Strengthen partnerships with top-performing retailers to optimize product placement and explore co-marketing opportunities.```<br>
+```•Implement strategies to optimize operations in the summer, considering the significance in sales. This may include increased staffing, special promotions, or tailored product offerings.```<br>
+```•Enhance the online and outlet sales platform, improve user experience, and invest in targeted digital marketing campaigns to boost online sales.```<br>
+```•Consider expanding operations in high-performing regions and target cities with growth potential. ```<br>
+```•Gather and analyze customer feedback and preferences to better understand their needs, tailor marketing messages, and optimize product offerings.```<br>
 
 
 
