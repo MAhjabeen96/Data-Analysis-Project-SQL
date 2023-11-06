@@ -165,4 +165,8 @@ ORDER BY
     total_profit DESC
 LIMIT 5; ```<br>
  And this is the data output:<br>
- ![Alt text](Output/9.PNG) <br>From this, you can conclude that the product category that brings the most revenue is "Men's Street Footwear", while "Women's Athletic Footwear" is at the bottom.<br>
+ ![Alt text](Output/9.PNG)<br>Kohl's is the top performing retailer in Los Angeles with a profit of $3,578,910.
+West Gear leads in San Francisco with a profit of $3,514,507.
+Foot Locker is the top performer in Charleston with a profit of $3,449,802.
+In Portland, West Gear is the top performing retailer with a profit of $3,118,632.
+Walmart leads in Orlando with a profit of $2,992,039.<br>
