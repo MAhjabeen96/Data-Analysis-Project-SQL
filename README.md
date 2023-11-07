@@ -1,6 +1,6 @@
 # Adidas-Sales-Analysis
 
-<font size="15"><B>Problem Statement</B></font>  <br>
+<font size="15"><B>Problem Statement</B></font> <br>
 The objective of this project is to analyze the Adidas sales database for the year 2021 and identify key insights to help improve sales performance and optimize business strategies. By analyzing the sales data, we aim to understand factors influencing sales, identify trends, and uncover opportunities for growth. <br>
 <font size="15">Background</B></font>  <br>
 Sales are a fundamental aspect of any business. <br>
