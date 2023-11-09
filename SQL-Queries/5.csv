@@ -1,0 +1,47 @@
+state;retailer;total_sales
+Alabama;"Sports Direct";2455333
+Alaska;Amazon;1639600
+Arizona;"Foot Locker";1879341
+Arkansas;Walmart;1209521
+California;Kohl's;3747483
+Connecticut;"Sports Direct";1131675
+Delaware;"Foot Locker";1028718
+Florida;Walmart;2992039
+Georgia;"Sports Direct";2109748
+Hawaii;"Foot Locker";1471498
+Idaho;"Foot Locker";1000016
+Illinois;"Foot Locker";1114986
+Indiana;"West Gear";1084723
+Iowa;"Foot Locker";587410
+Kansas;Kohl's;792489
+Kentucky;Amazon;873207
+Louisiana;"West Gear";2903868
+Maine;Amazon;1058145
+Maryland;"Foot Locker";443418
+Massachusetts;"Sports Direct";977870
+Michigan;"Sports Direct";1982828
+Mississippi;Walmart;767542
+Missouri;"Foot Locker";980132
+Montana;Kohl's;1846373
+Nebraska;"Foot Locker";646254
+"New Hampshire";Amazon;1436692
+"New Jersey";Kohl's;789635
+"New Mexico";Kohl's;2427465
+"New York";"West Gear";2540540
+"North Carolina";"Sports Direct";2477780
+"North Dakota";"Sports Direct";637168
+Ohio;Amazon;2068448
+Oklahoma;"West Gear";1005379
+Oregon;"West Gear";3047049
+Pennsylvania;"Foot Locker";1343695
+"Rhode Island";"Foot Locker";771987
+"South Carolina";"Foot Locker";3048130
+"South Dakota";"Foot Locker";697530
+Tennessee;"Sports Direct";2521590
+Texas;"Sports Direct";2923048
+Utah;"West Gear";1387620
+Vermont;Amazon;1903438
+Virginia;"Foot Locker";2579593
+"West Virginia";"West Gear";909488
+Wisconsin;"West Gear";948894
+Wyoming;Kohl's;2001487
