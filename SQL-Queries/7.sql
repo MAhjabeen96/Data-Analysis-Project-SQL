@@ -2,7 +2,7 @@
 */
 
 SELECT product, SUM(total_profit) AS Profit
-FROM (SELECT adidas_sales.product, (adidas_sales.price_per_unit * adidas_sales.units_sold) AS total_profit
+FROM (SELECT product, (price_per_unit * units_sold) AS total_profit
 FROM adidas_sales 
 ) AS subquery
  GROUP BY product 
